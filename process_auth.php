@@ -1,11 +1,11 @@
 <?php
 // RADIUS server details
 $radius_server = '192.168.15.254';  // Your RADIUS server IP
-$radius_secret = 'your_radius_shared_secret'; // RADIUS shared secret
+$radius_secret = 'jazenetworks'; // RADIUS shared secret
 $radius_port = 1812; // Default port for RADIUS
 
 // Firebox shared secret for generating signature
-$shared_secret = 'your_firebox_shared_secret';
+$shared_secret = 'jazenetworks';
 
 // Get the form data
 $username = $_POST['username'];
